@@ -11,3 +11,11 @@ finally:
 		in_file.close()
 	if 'out_file' in locals():
 		out_file.close()
+
+
+''' Use a short try/catch/finally when work with a file'''
+try:
+	with open('its.txt', "w") as data:
+		print("It's...", file=data)
+except IOError as err:
+	print('File error: ' + str(err))
