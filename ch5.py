@@ -11,3 +11,7 @@ print(distances)
 # or
 distances = set([10.6, 11, 8, 10.6, "two", 7])
 print(distances)
+
+# Dictionary
+dictionary = {'name' : 'Dido', 'age': 31, 'sex': 'male'}
+print(dictionary)
